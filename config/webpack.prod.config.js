@@ -11,6 +11,10 @@ const webpackConfigProd = {
         new CleanWebpackPlugin({
             protectWebpackAssets: true,
         }),
+        //引入插件包
+        new MiniCssExtractPlugin({
+            filename: '[name].[fullhash:4].css',
+        }),
 
         new HtmlWebpackPlugin({
             inject: 'body',
