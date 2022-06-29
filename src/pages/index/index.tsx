@@ -99,7 +99,7 @@ export default class indexPage extends Component<Props, States> {
                             <div className="promotion-card-area"><PromotionCard history={history} /></div>
 
                             <div className="product-card-area"><ProductCard /></div>
-
+                            <div></div>
                         </div>
 
                         <div className="right-content">
